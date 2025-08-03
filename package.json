@@ -1,0 +1,36 @@
+{
+  "name": "intern-dashboard",
+  "version": "1.0.0",
+  "description": "A beautiful, modern intern dashboard with referral tracking and leaderboards",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "install-backend": "cd backend && npm install",
+    "install-frontend": "cd frontend && npm install",
+    "install-all": "npm run install-backend",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npx http-server -p 3000 -o"
+  },
+  "keywords": [
+    "intern",
+    "dashboard",
+    "referral",
+    "leaderboard",
+    "donations",
+    "rewards",
+    "nodejs",
+    "express",
+    "mongodb"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/intern-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/intern-dashboard/issues"
+  },
+  "homepage": "https://github.com/yourusername/intern-dashboard#readme"
+} 
